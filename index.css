@@ -1,0 +1,9 @@
+ h1, footer {
+	background-color: silver;
+	text-align: center;
+}
+
+footer {
+	padding: 1rem 0;
+	margin-bottom: 1rem;
+}

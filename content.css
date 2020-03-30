@@ -1,0 +1,24 @@
+.form-table {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.images {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.test {
+	background: url(horizon/horizon3.jpg) no-repeat  center center ;
+	background-size: cover;
+	/*height: auto;*/
+	overflow: hidden;
+	
+}
+
+.test1 {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+
+}

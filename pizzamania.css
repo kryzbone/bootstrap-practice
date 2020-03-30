@@ -1,0 +1,31 @@
+.navbar-home {
+    background-color: #bf0808;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-home .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-home .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.slider {
+	height: 550px;
+
+}
+
+.about-pizza {
+	margin: 4rem 0px;
+}
+
+
+footer {
+	background-color: #bf0808;
+	color: white;
+	padding: 1rem 0px;
+}

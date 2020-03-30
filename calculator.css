@@ -1,0 +1,119 @@
+.row-1 {
+	height: 50px;
+	background-color: grey;
+}
+
+.first {
+
+	border-left: none;
+}
+
+
+
+h2 {
+	text-align: center;
+	
+}
+.last {
+	border: 1px solid grey;
+	background-color: orange;
+	border-right: none;
+	color: white;
+}
+
+.main {
+	background-color: lightgrey;
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+.cal {
+
+}
+
+.row-1 h2 {
+	color: white;
+	text-align: right;
+	margin: auto 0;
+	line-height: 50px;
+}
+
+/*CSS for Calulator without Bootstrap*/
+
+.cal2 {
+	width: 80%;
+	margin: 60px auto;
+
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6 {
+	max-width: 100%;
+	height: 50px;
+	display: flex;
+}
+.row1 {
+	background-color: grey;
+	justify-content: flex-end;
+	align-items: center;	
+}
+
+.row1 p {
+	padding-right: 10px;
+	padding-top: 10px;
+	color: white;
+}
+
+.row2 > * , .row3 > *{
+	width: calc(100% / 4);
+	border: 1px solid grey;
+	margin: 0;
+}
+
+/*.row3 > * {
+	width: calc(100% / 4);
+	border: 1px solid grey;
+	margin: 0;
+}
+
+.row4 > * {
+	width: calc(100% / 4);
+	border: 1px solid grey;
+	margin: 0;
+}
+
+.row5 > * {
+	width: calc(100% / 4);
+	border: 1px solid grey;
+	margin: 0;
+}*/
+.row3 p:first-child {
+	width: 50%
+
+}
+
+.row3 p:not(:first-child) {
+	width: 25%
+}
+
+.row2 p:last-child, .row3 p:last-child {
+	background-color: orange;
+	color: white;
+}
+
+.row2 p:not(:last-child), .row3 p:not(:last-child) {
+	background-color: lightgrey;
+}
+
+.row2 p:last-child:hover, .row3 p:last-child:hover {
+	background-color: #f5a85b;
+	cursor: pointer;
+}
+
+.row2 p:not(:last-child):hover, .row3 p:not(:last-child):hover {
+	background-color: silver;
+	cursor: pointer;
+}
+
+p {
+	font-size: 30px;
+	text-align: center;
+}
